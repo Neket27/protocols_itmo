@@ -1,0 +1,114 @@
+# =====================
+# Go
+# =====================
+
+# Бинарные файлы
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+
+# Модули Go
+go.sum
+vendor/
+
+# Тесты и покрытие
+coverage.txt
+coverage.out
+*.cover
+*.test
+test-result/
+
+# Временные файлы
+*.tmp
+*.temp
+tmp/
+temp/
+
+# =====================
+# GoLand / IntelliJ
+# =====================
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# GoLand специфичные
+.goland/
+.run/
+
+# =====================
+# Окружение
+# =====================
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+*.env
+
+# Конфиги с секретами
+config.local.json
+config.local.yaml
+config.local.yml
+secrets/
+credentials/
+
+# =====================
+# ОС
+# =====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+
+# =====================
+# Логи
+# =====================
+
+*.log
+logs/
+log/
+
+# =====================
+# Документация
+# =====================
+
+# Генерируемая документация
+docs/api/
+public/
+
+# =====================
+# Docker
+# =====================
+
+# Docker compose override
+docker-compose.override.yml
+
+# =====================
+# CI/CD
+# =====================
+
+# Локальные настройки CI
+.gitlab-ci-local/
+.github/workflows/local/
