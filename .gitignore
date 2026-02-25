@@ -14,7 +14,7 @@ bin/
 dist/
 
 # Модули Go
-go.sum
+test_go/go.sum
 vendor/
 
 # Тесты и покрытие
